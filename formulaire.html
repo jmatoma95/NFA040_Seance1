@@ -10,31 +10,22 @@
 <form action="#">
 <fieldset>
 <legend>Votre Nom et Prénom</legend>
-<p>Nom : <input name="A" type="Text" value=""/></p>
-<p>Prénom : <input name="B" type="Text" value=""/></p>
-	
-<p>Mr <input name="C" type="radio" value="Mr"/> 
-Mme<input name="C" type="radio" value="Mme"/></p>
-<p>
-Chien <input name="D" type="checkbox" value="Chien"/>
-Chat <input name="E" type="checkbox" value="Chat"/>
-Poisson <input name="F" type="checkbox" value="Poisson"/>
-</p>
-<p>
-<select name="G" multiple>
-	<option>Pain</option>
-	<option>Citron</option>
-	<option>Orange</option>
-</select>
-</p>
-<p>
-<textarea rows="3" cols="30	" name="H">
-Laisez nous un commentaire
+<p>Nom *</p>
+	<p><input name="A" type="Text" value=""/></p>
+
+<p>Description *</p>	
+	<textarea rows="3" cols="30	" name="H">
 </textarea>
 
-</p>
+<p>Equipe</p>
+<p><input name="C" type="radio" value="Rouge"/></p> 
+<p><input name="C" type="radio" value="Jaune"/></p>
+<p><input name="C" type="radio" value="Bleu"/></p>
+
+<p>Anniversaire *</p>
+	<p><input name="A" type="Date" value="jj/mm/aaaa"/></p>
+	
 <p><input type="submit" value="Envoyer" />
-<input type="reset"/>
 </p>
 </fieldset>
 
